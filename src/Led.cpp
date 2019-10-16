@@ -16,3 +16,6 @@ Led::~Led() {
 	// TODO Auto-generated destructor stub
 }
 
+int Led::ledPwm(int int1) {
+	return int1;
+}

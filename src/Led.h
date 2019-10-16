@@ -9,8 +9,10 @@
 #define SRC_LED_H_
 
 class Led {
-public:
+
+ public:
 	Led();
+	int	ledPwm(int);
 	virtual ~Led();
 };
 
